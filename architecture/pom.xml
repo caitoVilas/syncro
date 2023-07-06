@@ -10,4 +10,10 @@
     <artifactId>architecture</artifactId>
     <name>Archetype - architecture</name>
     <url>http://maven.apache.org</url>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+
+    <modules>
+        <module>config-service/config-service</module>
+    </modules>
 </project>
