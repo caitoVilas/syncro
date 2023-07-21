@@ -1,0 +1,12 @@
+server:
+  port: 8801
+spring:
+  application:
+    name: syncro-service
+  config:
+    import: optional:configserver:http://localhost:8888
+  profiles:
+    active: develop
+application:
+  title: syncro-service
+  version: 0.0.1-SNAPSHOT

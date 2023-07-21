@@ -10,7 +10,7 @@ spring:
         git:
           uri: D:\\workspace\\config-mobile
           clone-on-start: true
-          default-labael: main
+          default-label: main
 application:
   title: config-service
-  version: 1.0
+  version: 0.0.1.SNAPSHOOT
